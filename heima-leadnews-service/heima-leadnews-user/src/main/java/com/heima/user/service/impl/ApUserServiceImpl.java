@@ -6,10 +6,12 @@ import com.heima.model.common.dtos.ResponseResult;
 import com.heima.model.common.enums.AppHttpCodeEnum;
 import com.heima.model.user.dtos.LoginDto;
 import com.heima.model.user.pojos.ApUser;
+import com.heima.model.user.vo.ApUserVO;
 import com.heima.user.mapper.ApUserMapper;
 import com.heima.user.service.ApUserService;
 import com.heima.utils.common.AppJwtUtil;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -51,9 +53,13 @@ public class ApUserServiceImpl extends ServiceImpl<ApUserMapper, ApUser> impleme
       String token = AppJwtUtil.getToken(dbUser.getId().longValue());
       Map<String, Object> map = new HashMap<>();
       map.put("token", token);
-      dbUser.setSalt("");
-      dbUser.setPassword("");
-      map.put("user", dbUser);
+      ApUserVO userVO = new ApUserVO();
+      try {
+        BeanUtils.copyProperties(userVO, dbUser);
+      } catch (Exception e) {
+        throw new RuntimeException(e);
+      }
+      map.put("user", userVO);
 
       return ResponseResult.okResult(map);
     } else {
@@ -62,7 +68,6 @@ public class ApUserServiceImpl extends ServiceImpl<ApUserMapper, ApUser> impleme
       map.put("token", AppJwtUtil.getToken(0L));
       return ResponseResult.okResult(map);
     }
-
 
   }
 }
