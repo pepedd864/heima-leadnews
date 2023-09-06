@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="root@192.168.220.135:22" type="ssh/sftp" uuid="6af07539-8a5c-4d98-abf5-cdae9051a31e">
+        <config>
+          <option name="projectRootOnTarget" value="/home/pepedd/heima-leadnews" />
+          <option name="serverName" value="root@192.168.200.130:22 password" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="homePath" value="/usr/" />
+            <option name="javaVersionString" value="1.8.0_382" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>

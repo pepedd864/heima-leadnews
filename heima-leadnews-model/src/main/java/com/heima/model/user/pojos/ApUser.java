@@ -17,7 +17,7 @@ import java.util.Date;
  * @author itheima
  */
 @Data
-@TableName("ap_user")
+@TableName(value = "ap_user", autoResultMap = true)
 public class ApUser implements Serializable {
 
   private static final long serialVersionUID = 1L;
