@@ -14,7 +14,18 @@
           <node kind="schema">
             <name qname="leadnews_article" />
             <name qname="leadnews_user" />
+            <name qname="leadnews_wemedia" />
           </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="1@frp-add.top" uuid="9e3f6f70-3bee-4f91-9b30-7085904826d4">
+      <database-info product="Redis Standalone" version="3.2.100" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.4" dbms="REDIS" exact-version="3.2.100" exact-driver-version="1.4" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
         </introspection-scope>
       </schema-mapping>
     </data-source>
