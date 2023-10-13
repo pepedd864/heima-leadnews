@@ -4,129 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32f33471-6224-49ae-8119-1168033f9435" name="更改" comment="feat: 文章生成">
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-common/src/main/java/com/heima/common/constants/WemediaConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-wemedia-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-wemedia-gateway/src/main/java/com/heima/wemedia/gateway/WemediaGatewayAplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-wemedia-gateway/src/main/java/com/heima/wemedia/gateway/filter/AuthorizeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-wemedia-gateway/src/main/java/com/heima/wemedia/gateway/util/AppJwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-wemedia-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/wemedia/dtos/WmLoginDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/wemedia/dtos/WmMaterialDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/wemedia/dtos/WmNewsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/wemedia/dtos/WmNewsPageReqDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/wemedia/pojos/WmChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/wemedia/pojos/WmMaterial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/wemedia/pojos/WmNews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/wemedia/pojos/WmNewsMaterial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/wemedia/pojos/WmUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/WemediaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/controller/v1/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/controller/v1/WmMaterialController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/controller/v1/WmNewsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/controller/v1/WmchannelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/interceptor/WmTokenInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/mapper/WmChannelmapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/mapper/WmMaterialMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/mapper/WmNewsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/mapper/WmNewsMaterialMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/mapper/WmUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/WmChannelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/WmMaterialService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/WmNewsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/WmUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/impl/WmChannelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/impl/WmMaterialServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/impl/WmNewsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/impl/WmUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/resources/mapper/WmNewsMaterialMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/test/java/com/heima/wemedia/RedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima-leadnews-utils/src/main/java/com/heima/utils/thread/WmThreadLocalUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/conf/leadnews.conf/heima-leadnews-wemedia.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/css/app.84213ec7101034353c40f789425c8529.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/css/app.84213ec7101034353c40f789425c8529.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/fonts/element-icons.535877f.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/fonts/element-icons.732389d.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/fonts/fontawesome-webfont.674f50d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/fonts/fontawesome-webfont.af7ae50.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/fonts/fontawesome-webfont.b06871f.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/fonts/fontawesome-webfont.fee66e7.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/img/404.38b07fb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/img/avatar_new.02c945b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/img/fontawesome-webfont.912ec66.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/img/img_logo_media@2x.659fbfe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/img/itheima_new.d3c2bfd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/img/login_bg.ec9bf21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/0.0a3619398289c4a78b2b.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/0.0a3619398289c4a78b2b.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/1.317c4753e3e54bf84c9b.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/1.317c4753e3e54bf84c9b.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/10.f1df8fc0ddf795d4ad50.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/10.f1df8fc0ddf795d4ad50.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/11.ecde52b5f60f25f9a96f.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/11.ecde52b5f60f25f9a96f.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/12.355ad238aad731d4f4d0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/12.355ad238aad731d4f4d0.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/13.5305fc04ffa2890acdec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/13.5305fc04ffa2890acdec.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/2.fb263831a105e38ef1de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/2.fb263831a105e38ef1de.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/3.cb34d0e6af967a4b18be.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/3.cb34d0e6af967a4b18be.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/4.760f6fff629848479252.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/4.760f6fff629848479252.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/5.00022833a060424bbf06.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/5.00022833a060424bbf06.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/6.860f09b57f2fcce58722.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/6.860f09b57f2fcce58722.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/7.1da461618e87cb0de833.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/7.1da461618e87cb0de833.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/8.4c0324af24a24833f81c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/8.4c0324af24a24833f81c.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/9.12d9509be479f658e726.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/9.12d9509be479f658e726.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/app.ebd44b13d593321e0614.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/app.ebd44b13d593321e0614.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/manifest.aa1dbfd80261ca6eb4b0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/manifest.aa1dbfd80261ca6eb4b0.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/vendor.3136b0ee54cca25feb74.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/js/vendor.3136b0ee54cca25feb74.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/content.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/fonts/tinymce-mobile.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/fonts/tinymce.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/fonts/tinymce.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/fonts/tinymce.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/fonts/tinymce.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/img/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/img/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/img/object.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/img/trans.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/skins/lightgray/skin.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx-1.18.0/wemedia-web/static/tinymce/zh_CN.js" afterDir="false" />
+    <list default="true" id="32f33471-6224-49ae-8119-1168033f9435" name="更改" comment="feat: 自媒体端发布文章">
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-feign-api/src/main/java/com/heima/api/article/IArticleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/article/dtos/ArticleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/feign/ArticleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/mapper/ApArticleConfigMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/WmNewsAutoScanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/impl/WmNewsAutoScanServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e521b8a-16a2-4b22-a943-f403c981a848.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7e521b8a-16a2-4b22-a943-f403c981a848.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9e3f6f70-3bee-4f91-9b30-7085904826d4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9e3f6f70-3bee-4f91-9b30-7085904826d4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/common/dtos/PageResponseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/common/dtos/PageResponseResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/common/enums/AppHttpCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/common/enums/AppHttpCodeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-basic/heima-file-starter/src/main/java/com/heima/file/config/MinIOConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-basic/heima-file-starter/src/main/java/com/heima/file/config/MinIOConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-feign-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-feign-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/article/pojos/ApArticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/article/pojos/ApArticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/article/pojos/ApArticleConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/article/pojos/ApArticleConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/article/pojos/ApArticleContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/article/pojos/ApArticleContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/ArticleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/ArticleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/service/ApArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/service/ApArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/service/impl/ApArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/service/impl/ApArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-user/src/main/java/com/heima/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-user/src/main/java/com/heima/user/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-utils/src/main/java/com/heima/utils/common/BCrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-utils/src/main/java/com/heima/utils/common/BCrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.18.0/app-web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nginx-1.18.0/app-web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.18.0/html/50x.html" beforeDir="false" afterPath="$PROJECT_DIR$/nginx-1.18.0/html/50x.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx-1.18.0/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nginx-1.18.0/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nginx-1.18.0/logs/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/nginx-1.18.0/logs/access.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nginx-1.18.0/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/nginx-1.18.0/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nginx-1.18.0/logs/nginx.pid" beforeDir="false" afterPath="$PROJECT_DIR$/nginx-1.18.0/logs/nginx.pid" afterDir="false" />
@@ -138,6 +42,9 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -157,10 +64,12 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="D:/DevelopmentTools/JetBrainSoftware/InelliJ/apache-maven-3.8.7" />
-        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2V0JdxdhRDLjN4UQrjxOfxXZSdS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -179,7 +88,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-1.8 (3)&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/Desktop/workspace/IDEA-Workplace/heima-leadnews/nginx-1.18.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/Desktop/workspace/IDEA-Workplace/flutter-files&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
@@ -187,7 +96,8 @@
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.27586207&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.zeroturnaround.javarebel.idea.plugin.settings.RemoteServersConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;901ca4dedec3b02de81bc0c4a9ee245c&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -319,11 +229,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.WemediaApplication" />
-        <item itemvalue="Spring Boot.WemediaGatewayAplication" />
-        <item itemvalue="Spring Boot.AppGatewayApplication" />
-        <item itemvalue="Spring Boot.ArticleApplication" />
         <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.AppGatewayApplication" />
+        <item itemvalue="Spring Boot.WemediaApplication" />
+        <item itemvalue="Spring Boot.ArticleApplication" />
+        <item itemvalue="Spring Boot.WemediaGatewayAplication" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +252,20 @@
       <workItem from="1694095206860" duration="3598000" />
       <workItem from="1694101549471" duration="7358000" />
       <workItem from="1694138471426" duration="6421000" />
-      <workItem from="1694154153468" duration="7034000" />
+      <workItem from="1694154153468" duration="7193000" />
+      <workItem from="1694163385883" duration="7196000" />
+      <workItem from="1694222564386" duration="88000" />
+      <workItem from="1694222668572" duration="6790000" />
+      <workItem from="1694305306205" duration="20000" />
+      <workItem from="1694399874652" duration="160000" />
+      <workItem from="1694400060477" duration="640000" />
+      <workItem from="1694654722690" duration="602000" />
+      <workItem from="1694671404542" duration="1872000" />
+      <workItem from="1694744778721" duration="895000" />
+      <workItem from="1694780591116" duration="3164000" />
+      <workItem from="1695395270908" duration="4776000" />
+      <workItem from="1697199789706" duration="83000" />
+      <workItem from="1697199889017" duration="5745000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 文章列表">
       <created>1694015592973</created>
@@ -358,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694101472263</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: 自媒体端发布文章">
+      <created>1694161271414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694161271415</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,25 +310,12 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="feat: 文章列表" />
     <MESSAGE value="feat: 文章生成" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 文章生成" />
+    <MESSAGE value="feat: 自媒体端发布文章" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 自媒体端发布文章" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/impl/WmNewsServiceImpl.java</url>
-          <line>106</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/impl/WmNewsServiceImpl.java</url>
-          <line>148</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="((FileInputStream)inputStream).path" custom="java.io.FileInputStream" />

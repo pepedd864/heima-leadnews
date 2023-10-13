@@ -11,7 +11,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @MapperScan("com.heima.user.mapper")
 public class UserApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(UserApplication.class, args);
-    }
+  public static void main(String[] args) {
+    SpringApplication.run(UserApplication.class, args);
+  }
 }

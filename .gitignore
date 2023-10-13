@@ -39,3 +39,5 @@ build/
 
 ### custom ###
 application-*.yml
+
+logs/

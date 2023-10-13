@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="IU-231.9011.34">
-    <data-source name="@frp-fit.top" uuid="7e521b8a-16a2-4b22-a943-f403c981a848">
+  <component name="dataSourceStorageLocal" created-in="IU-232.10072.27">
+    <data-source name="@localhost" uuid="7e521b8a-16a2-4b22-a943-f403c981a848">
       <database-info product="MySQL" version="8.0.31" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="8.0.31" exact-driver-version="8.0">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -19,7 +19,7 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
-    <data-source name="1@frp-add.top" uuid="9e3f6f70-3bee-4f91-9b30-7085904826d4">
+    <data-source name="1@localhost" uuid="9e3f6f70-3bee-4f91-9b30-7085904826d4">
       <database-info product="Redis Standalone" version="3.2.100" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.4" dbms="REDIS" exact-version="3.2.100" exact-driver-version="1.4" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>
